@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'register_now' => 'Daftar Sekarang',
+    'learn_more' => 'Pelajari Lebih Lanjut',
+    'create_account_now' => 'Buat Akun Sekarang',
+    'login_here' => 'Masuk Di Sini',
+    'save' => 'Simpan',
+    'update' => 'Perbarui',
+    'delete' => 'Hapus',
+    'cancel' => 'Batal',
+    'edit' => 'Sunting',
+    'create' => 'Buat',
+    'submit' => 'Kirim',
+    'back' => 'Kembali',
+    'confirm' => 'Konfirmasi',
+    'yes' => 'Ya',
+    'no' => 'Tidak',
+    'view' => 'Lihat',
+    'search' => 'Cari',
+    'reset' => 'Atur Ulang',
+    'view_detail' => 'Lihat Detail',
+    'view_archive' => 'Lihat Arsip Acara',
+    'Join_Meeting' => 'Gabung Rapat',
+    'Join_Event' => 'Ikuti Event',
+    'view_ticket' => 'Lihat Tiket (QR Code)',
+];

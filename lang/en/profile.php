@@ -1,0 +1,67 @@
+<?php
+
+return [
+
+    'profile' => 'Profile',
+    'information' => 'Information Institution',
+    'information_description' => 'Update the public information about your organization.',
+    'instruction_upload_logo' => 'Upload Logo Institution (Max. 1MB)',
+    'delete_logo' => 'Delete Logo',
+    'delete_logo_confirmation' => 'Are you sure you want to delete this logo? This action cannot be undone.',
+    'yes_delete' => 'Yes, Delete',
+    'cancel' => 'Cancel',
+    'choose_file' => 'Choose File',
+    'upload' => 'Upload',
+    'remove' => 'Remove',
+    'institution_name' => 'Institution Name',
+    'institution_logo' => 'Institution Logo',
+    'booth_number' => 'Booth Number',
+    'institution_website' => 'Institution Website',
+    'institution_description' => 'Institution Description',
+    'address' => 'Address',
+    'phone' => 'Phone',
+    'email' => 'Email',
+    'website' => 'Website',
+    'description' => 'Description',
+    'type_instansi' => 'Type of Institution',
+    'phone_instansi' => 'Institution Phone',
+
+    'contact_information' => 'Contact Information',
+    'contact_information_description' => 'Update your contact information and login email.',
+    'name' => 'Contact Name',
+    'email' => 'Email',
+    'position' => 'Position',
+    'whatsapp' => 'WhatsApp Number',
+    'whatsapp_placeholder' => 'e.g., 6281234567890',
+    'social_media_and_website' => 'Social Media & Website',
+    'social_media_and_website_description' => 'Add links to expand your promotional reach.',
+    'linkedin' => 'LinkedIn',
+    'facebook' => 'Facebook',
+    'twitter' => 'Twitter',
+    'instagram' => 'Instagram',
+    'youtube_link' => 'YouTube',
+    'youtube_link_placeholder' => 'https://www.youtube.com/yourchannel',
+    'website_link_placeholder' => 'https://www.yourwebsite.com',
+    'linkedin_placeholder' => 'https://www.linkedin.com/in/yourprofile',
+    'facebook_placeholder' => 'https://www.facebook.com/yourpage',
+    'twitter_placeholder' => 'https://www.twitter.com/yourhandle',
+    'instagram_placeholder' => 'https://www.instagram.com/yourprofile',
+    'digital_material' => 'Material Digital',
+    'digital_material_description' => 'Upload a brochure or provide a link to your promotional material.',
+    'instruction.upload.dokumen' => 'Upload Dokumen (PDF/Word/PPT, Max. 20MB)',
+    'link_doc_external' => 'Link Dokumen Eksternal',
+    'public_link' => 'Use this for files larger than 20MB. Ensure that the link is accessible to the public',
+    'change_password' => 'Change Password',
+    'change_password_desc' => 'Ensure your account uses a long and random password to remain secure',
+    'current_password' => 'Current Password',
+    'new_password' => 'New Password',
+    'confirm_password' => 'Confirm Password',
+
+
+
+
+
+
+    'save' => 'Save',
+    'saved' => 'Saved.',
+];

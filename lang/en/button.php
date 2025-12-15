@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'register_now' => 'Register Now',
+    'learn_more' => 'Learn More',
+    'create_account_now' => 'Visitor Registration',
+    'login_here' => 'Login Here',
+    'save' => 'Save',
+    'update' => 'Update',
+    'delete' => 'Delete',
+    'cancel' => 'Cancel',
+    'edit' => 'Edit',
+    'create' => 'Create',
+    'submit' => 'Submit',
+    'back' => 'Back',
+    'confirm' => 'Confirm',
+    'yes' => 'Yes',
+    'no' => 'No',
+    'view' => 'View',
+    'search' => 'Search',
+    'reset' => 'Reset',
+    'view_detail' => 'View Details',
+    'view_archive' => 'View Archived Events',
+    'Join_Meeting' => 'Join Meeting',
+    'Join_Event' => 'Join Event',
+    'view_ticket' => 'View Ticket (QR Code)',
+];

@@ -1,0 +1,156 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[class*='aspect-w-']>iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@import 'shepherd.js/dist/css/shepherd.css';
+
+.ck-editor__editable {
+    min-height: 200px;
+    resize: vertical;
+    overflow: auto;
+}
+
+/* Custom styles for responsive admin tables */
+@media screen and (max-width: 768px) {
+    .responsive-table thead {
+        display: none;
+        /* Sembunyikan header tabel di mobile */
+    }
+
+    .responsive-table tr {
+        display: block;
+        margin-bottom: 1.5rem;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .responsive-table td {
+        display: block;
+        text-align: right;
+        /* Pindahkan data ke kanan */
+        border-bottom: 1px dotted #ccc;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .responsive-table td::before {
+        content: attr(data-label);
+        /* Tampilkan label dari atribut data-label */
+        float: left;
+        /* Pindahkan label ke kiri */
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+/* =============================================== */
+/* ==> KUSTOMISASI UNTUK SHEPHERD ONBOARDING TOUR <== */
+/* =============================================== */
+
+.shepherd-custom {
+    max-width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shepherd-custom .shepherd-header {
+    background-color: #f7fafc;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.shepherd-custom .shepherd-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+.shepherd-custom .shepherd-text {
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+
+.shepherd-custom .shepherd-button {
+    background-color: #4f46e5 !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.375rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    margin-right: 0.5rem !important;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.shepherd-custom .shepherd-button:hover {
+    background-color: #4338ca !important;
+}
+
+.shepherd-custom .shepherd-button.shepherd-button-secondary {
+    background-color: #e2e8f0 !important;
+    color: #4a5568 !important;
+}
+
+.shepherd-custom .shepherd-button.shepherd-button-secondary:hover {
+    background-color: #cbd5e0 !important;
+}
+
+/* Ini untuk memperbaiki posisi panah */
+.shepherd-element[data-popper-placement^="right"] .shepherd-arrow::before {
+    border-right-color: #e2e8f0 !important;
+}
+
+.shepherd-element[data-popper-placement^="left"] .shepherd-arrow::before {
+    border-left-color: #e2e8f0 !important;
+}
+
+.shepherd-element[data-popper-placement^="bottom"] .shepherd-arrow::before {
+    border-bottom-color: #e2e8f0 !important;
+}
+
+.shepherd-element[data-popper-placement^="top"] .shepherd-arrow::before {
+    border-top-color: #e2e8f0 !important;
+}
+
+.shepherd-modal-overlay-container {
+    display: none !important;
+}
+
+.ts-dropdown .option {
+    display: flex;
+    align-items: flex-start;
+    /* Mengubah alignment vertikal ke atas */
+}
+
+.ts-dropdown .option input[type="checkbox"] {
+    margin-top: 0.2rem;
+    /* Menyesuaikan posisi checkbox sedikit ke bawah agar pas */
+    flex-shrink: 0;
+    /* Mencegah checkbox mengecil jika ruang sempit */
+}
+
+/* Styling Kustom untuk Swiper Pagination */
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff; /* Warna putih */
+    opacity: 0.5; /* Sedikit transparan untuk yang tidak aktif */
+    transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1; /* Putih penuh untuk yang aktif */
+    transform: scale(1.1);
+}
